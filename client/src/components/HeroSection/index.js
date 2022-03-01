@@ -23,7 +23,7 @@ const HeroSection = () => {
   return (
     <HeroContainer>
       <HeroBg>
-        <VideoBg src={HeroImage} type="homepage.jpg" />
+        <VideoBg src={HeroImage} type="Image.jpg" />
       </HeroBg>
       <HeroContent>
         <HeroH1>Find a Mentor Today!</HeroH1>

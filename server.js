@@ -16,9 +16,7 @@ if (process.env.NODE_ENV === "production") {
 //routes
 app.use(routes);
 
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/mentorMern", {
-  useNewUrlParser: true
-});
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/mentorMern");
 
 
 

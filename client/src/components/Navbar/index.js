@@ -81,7 +81,7 @@ const Navbar = ({ toggle }) => {
               </NavItem>
               <NavItem>
                 <NavLinks
-                  to="login"
+                  to="/login"
                   smooth={true}
                   duration={500}
                   spy={true}
@@ -93,7 +93,7 @@ const Navbar = ({ toggle }) => {
               </NavItem>
             </NavMenu>
             <NavBtn>
-              <NavBtnLink to="/signin">Sign In</NavBtnLink>
+              <NavBtnLink to="/Mentors">Sign In</NavBtnLink>
             </NavBtn>
           </NavbarContainer>
         </Nav>
